@@ -1,11 +1,29 @@
+.body {
+    margin: 0;
+    font-family: "Sofia Pro Black";
+    height: 1000vh;
+}
+
 .my-nav {
     background-color: #0065c3;
-    padding: 5px;
-    margin-bottom: -15px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    margin-bottom: -8px;
+    margin-top: -8px;
 }
+
+
 
 .nav-link {
     color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nav-item>a:hover {
+    color: yellow;
+    cursor: pointer;
 }
 
 .my-btn {
@@ -14,6 +32,119 @@
     border-color: white;
     border-radius: 10px;
 }
+
+.my-img {
+    position: relative;
+}
+
+.sticker {
+    position: absolute;
+    top: 50px;
+    left: 675px;
+}
+
+.third {
+    position: relative;
+}
+
+.fourth {
+    position: absolute;
+    top: 76%;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 270px;
+
+}
+
+
+.product {
+    background-color: #2553AA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.product-item>img {
+    max-width: 60%;
+    /* padding: 10px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.product-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item-column {
+    flex-direction: column;
+}
+
+.product-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.product-button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 08px 30px;
+    margin-bottom: 08px;
+
+}
+
+
+.drink {
+    background-color: #0065C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.drink-item {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stickerOne {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-10%, 10%);
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
 
 .my-img {
     background-color: black;
@@ -33,38 +164,218 @@
     background-color: #0065c3b8;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 5px;
-    border-color: black;
+    align-items: center;
+    padding-top: 30px;
 
+}
+
+.TWIL {
+    margin-bottom: 15px;
+    align-items: center;
 }
 
 .content-4 {
     background-color: #0065c3;
-    padding-left: 40px;
-    padding-top: 40px
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
 
-.content-4>h1 {
+.image-container img {
+    padding-right: 50px;
+}
+
+.text-container h1 {
     color: white;
     font-weight: bold;
 }
 
-.content-4>p {
-    padding-top: 10px;
+.text-container p {
     color: white;
     font-size: 15px;
+    padding-top: 10px;
 }
 
-.content-4 > img {
-padding-left: 50px;
+.content-button {
+    background-color: white;
+    color: #0065c3;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    border-radius: 35px;
 }
 
-.end{
-    color:  #07539b;
+.end {
+    color: #07539b;
     text-align: center;
 }
-.end1 {
-    color:  #07539b;
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    /* width: 100%; */
+    background-color: #0065C3;
+    margin-top: 10px;
+    padding-top: 20px;
+
+}
+
+.social-icons>i {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
     text-align: center;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-links>h4 {
+    color: #fff;
+}
+
+.footer-links>ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer-links>ul>li {
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-address>ul {
+    list-style-type: none;
+}
+
+.footer-address>ul>li {
+    color: #fff;
+    line-height: 30px;
+}
+
+
+
+
+.footer-links {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    padding-left: 30px;
+}
+
+
+.footer-button {
+    background-color: white;
+    color: #0065c3;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    border-radius: 35px;
+}
+
+.copyright {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+    text-align: center;
+    padding: 10px;
+}
+
+/* CSS for screens smaller than 768px (e.g. smartphones) */
+@media screen and (max-width: 767px) {
+    .my-nav {
+        padding-right: 5px;
+    }
+
+    .product-item {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .product-item>img {
+        max-width: 100%;
+    }
+
+    .product-text {
+        font-size: 16px;
+    }
+
+    .drink {
+        flex-direction: column;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+
+    .content-4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container img {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .text-container p {
+        font-size: 14px;
+    }
+
+    .social-media {
+        flex-wrap: wrap;
+    }
+
+    .social-icons>i {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer-links {
+        border-right: none;
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .product-item {
+        margin-bottom: 0;
+    }
+
+    .product-item>img {
+        max-width: 60%;
+    }
+
+    .drink {
+        flex-direction: row;
+    }
+
+    .image-container {
+        margin-bottom: 0;
+    }
+
+    .content-4 {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .image-container img {
+        padding-right: 50px;
+        padding-bottom: 0;
+    }
 }
